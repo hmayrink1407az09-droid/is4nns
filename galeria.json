@@ -2,20 +2,20 @@
   "galeria": [
     {
       "arquivo": "assets/foto-1.jpg",
-      "descricao": "Foto em frente ao espelho, com o rosto parcialmente coberto pelo celular. A pessoa usa uma blusa vermelha de alças finas, saia preta e meia-calça escura. Ao fundo há uma televisão e uma janela.",
-      "estilo": "selfie sensual",
+      "descricao": "Selfie em frente ao espelho, com celular cobrindo o rosto. A pessoa usa um conjunto vinho e acessórios delicados.",
+      "estilo": "selfie em frente ao espelho",
       "conteudo_explicito": false
     },
     {
       "arquivo": "assets/foto-2.jpg",
-      "descricao": "Selfie em frente ao espelho, com o rosto coberto pelo celular. A pessoa usa uma peça azul escura e shorts brancos, em um ambiente de quarto.",
-      "estilo": "selfie sensual",
+      "descricao": "Selfie em frente ao espelho, com celular cobrindo o rosto. A pessoa usa um top preto e saia estampada, com bolsa vermelha.",
+      "estilo": "selfie em frente ao espelho",
       "conteudo_explicito": false
     },
     {
       "arquivo": "assets/foto-3.jpg",
-      "descricao": "Selfie em frente ao espelho, com o rosto parcialmente coberto pelo celular. A pessoa usa um top escuro e uma saia curta estampada, em um ambiente com parede revestida.",
-      "estilo": "selfie sensual",
+      "descricao": "Selfie em frente ao espelho, com celular cobrindo o rosto. A pessoa usa um top preto e saia estampada, com bolsa vermelha.",
+      "estilo": "selfie em frente ao espelho",
       "conteudo_explicito": false
     }
   ]
