@@ -6,7 +6,7 @@ const raw={
 4:['iPhone 12','https://img.olx.com.br/thumbs700x500/18/183646674960596.webp','#c82333'],
 5:['iPhone 13','https://img.olx.com.br/thumbs700x500/79/796613557520671.webp','#d71939'],
 6:['iPhone 14','https://img.olx.com.br/thumbs700x500/56/561643173503615.webp','#ef3340'],
-7:['iPhone 15','https://img.olx.com.br/thumbs700x500/29/290674559610396.webp','#1e88a8'],
+7:['iPhone 15','https://commons.wikimedia.org/wiki/Special:Redirect/file/IPhone_15.jpg?width=1200','#1e88a8'],
 8:['Galaxy S23','https://img.olx.com.br/thumbs700x500/71/713657293429879.webp','#111827']
 };
 const products=[
