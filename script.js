@@ -1,13 +1,13 @@
 const phoneImage=(model,color='#111827')=>`data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="700" height="900" viewBox="0 0 700 900"><rect width="700" height="900" fill="#eef2f6"/><g transform="translate(190 55)"><rect x="0" y="0" width="320" height="790" rx="52" fill="#080d14"/><rect x="10" y="10" width="300" height="770" rx="44" fill="${color}" stroke="#ffffff" stroke-opacity=".25" stroke-width="4"/><rect x="25" y="25" width="270" height="740" rx="38" fill="#101820"/><circle cx="160" cy="52" r="8" fill="#05080c"/><text x="160" y="410" text-anchor="middle" fill="#e8f4ff" font-family="Arial,sans-serif" font-size="28" font-weight="700">${model}</text></g></svg>`)}`;
 const raw={
-1:['iPhone 11','https://commons.wikimedia.org/wiki/Special:Redirect/file/IPhone_11.jpeg?width=900','#1d7a55'],
-2:['iPhone 16 Pro Max','https://commons.wikimedia.org/wiki/Special:Redirect/file/About_iPhone_16_Pro_Max_Natural_Titanium.jpg?width=900','#b5a68a'],
-3:['iPhone XR','https://commons.wikimedia.org/wiki/Special:Redirect/file/IPhone_XR.jpg?width=900','#d61f35'],
-4:['iPhone 12','https://commons.wikimedia.org/wiki/Special:Redirect/file/Iphone-12-product--red.png?width=900','#c82333'],
-5:['iPhone 13','https://commons.wikimedia.org/wiki/Special:Redirect/file/IPhone_13.jpg?width=900','#d71939'],
-6:['iPhone 14','https://commons.wikimedia.org/wiki/Special:Redirect/file/IPhone_14_Product_Red.jpg?width=900','#ef3340'],
-7:['iPhone 15','https://commons.wikimedia.org/wiki/Special:Redirect/file/Apple_iPhone_15.jpg?width=900','#1e88a8'],
-8:['Galaxy S23','https://commons.wikimedia.org/wiki/Special:Redirect/file/Galaxy_S23.png?width=900','#111827']
+1:['iPhone 11','https://img.olx.com.br/thumbs700x500/26/260686196291667.webp','#1d7a55'],
+2:['iPhone 16 Pro Max','https://img.olx.com.br/thumbs700x500/44/445648671410728.webp','#b5a68a'],
+3:['iPhone XR','https://img.olx.com.br/thumbs700x500/86/864635311400368.webp','#d61f35'],
+4:['iPhone 12','https://img.olx.com.br/thumbs700x500/18/183646674960596.webp','#c82333'],
+5:['iPhone 13','https://img.olx.com.br/thumbs700x500/79/796613557520671.webp','#d71939'],
+6:['iPhone 14','https://img.olx.com.br/thumbs700x500/56/561643173503615.webp','#ef3340'],
+7:['iPhone 15','https://img.olx.com.br/thumbs700x500/29/290674559610396.webp','#1e88a8'],
+8:['Galaxy S23','https://img.olx.com.br/thumbs700x500/71/713657293429879.webp','#111827']
 };
 const products=[
 {id:1,name:'iPhone 11',brand:'Apple',spec:'128 GB • seminovo',price:1200,img:raw[1][1],fallback:phoneImage(raw[1][0],raw[1][2])},
