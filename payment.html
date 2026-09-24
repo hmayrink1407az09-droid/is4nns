@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><title>Pagamento Pix | dmcelulares</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="announcement">🔒 PAGAMENTO PIX • CONFIRA OS DADOS ANTES DE TRANSFERIR</div><header class="header"><div class="header-inner"><a class="brand" href="./"><span>dm</span>celulares</a><a class="header-cta" href="./">Voltar à loja</a></div></header>
+<main class="payment-wrap"><div class="payment-card"><span class="eyebrow">ETAPA FINAL</span><h1>Pagamento via Pix</h1><p class="payment-lead">Use a chave abaixo para realizar o pagamento do pedido.</p>
+<div class="order"><span>Produto</span><b>iPhone 13 128GB</b><span>Valor informado no anúncio</span><strong>R$ 1.500,00</strong></div>
+<div class="pix-box"><small>CHAVE PIX</small><code id="pixKey">38623aef-b819-4d6e-939e-1bef247070fc</code><button id="copyPix" class="btn gold">Copiar chave Pix</button><p id="copyStatus" aria-live="polite"></p></div>
+<div class="attention"><b>⚠ Confira antes de pagar</b><p>Confirme o nome do recebedor no aplicativo do seu banco antes de concluir a transferência. Se os dados exibidos pelo banco não corresponderem ao vendedor esperado, não finalize o pagamento.</p></div>
+<div class="steps"><div><b>1</b><span>Copie a chave Pix.</span></div><div><b>2</b><span>Abra seu banco e faça o Pix.</span></div><div><b>3</b><span>Confirme os dados do recebedor.</span></div><div><b>4</b><span>Guarde o comprovante.</span></div></div>
+<a class="back" href="./">← Voltar para o produto</a></div></main>
+<footer><div><b>dmcelulares</b><p>Loja online de celulares e eletrônicos.</p></div><small>O pagamento não é confirmado automaticamente por esta página.</small></footer>
+<script>document.getElementById("copyPix").addEventListener("click",async()=>{const k=document.getElementById("pixKey").textContent.trim(),s=document.getElementById("copyStatus");try{await navigator.clipboard.writeText(k);s.textContent="✓ Chave Pix copiada."; }catch(e){s.textContent="Selecione e copie a chave manualmente.";}});</script></body></html>
