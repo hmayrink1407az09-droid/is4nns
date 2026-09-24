@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://is4nns-cewon1tct-hmayrink1407az09-9970.vercel.app/sitemap.xml
